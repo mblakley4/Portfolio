@@ -90,6 +90,10 @@ h5 {
   font-style: italic;
 }
 
+.nasa-img {
+  width: 85%;
+}
+
 .project-container {
   display: flex;
   margin: 10px;
@@ -148,8 +152,8 @@ main {
 }
 
 footer {
-  padding: 5px;
   background-color: #52A596;
+  padding: 5px;
 }
 
 footer ul {
@@ -189,8 +193,8 @@ footer a:focus {
 }
 
 .footer-icon {
-  height: 15px;
-  width: 15px;
+  height: 2.5em;
+  width: 2.5em;
 }
 
 @media (min-width: 700px) {
@@ -210,10 +214,14 @@ footer a:focus {
     display: none;
   }
   main {
-    margin: 6em 1em 2em 1em;
+    margin: 10em 1em 2em 1em;
   }
   .nav-links {
-    display: none;
+    margin-top: 2em;
+    text-align: center;
+  }
+  nav {
+    height: 8em;
   }
 }
 
