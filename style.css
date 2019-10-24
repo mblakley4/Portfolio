@@ -36,7 +36,10 @@ nav a:focus {
   left: 10px;
   top: 35%;
   bottom: 35%;
-  width: 4em;
+  width: 4.2em;
+  background: #52A596;
+  height: 290px;
+  border-radius: 100px;
 }
 
 h1 {
@@ -72,14 +75,6 @@ h5 {
 .hash3 {
   color: #88D8CA;
   font-weight: 700;
-}
-
-.mockup {
-  height: 300px;
-  width: 50%;
-  float: right;
-  /* display: block; */
-  margin: 25px;
 }
 
 .aboutText {
@@ -118,8 +113,9 @@ h5 {
 }
 
 main {
-  margin: 6em 2em 6em 8em;
+  margin: 6em 8em;
   color: #002622;
+  max-width: 1200px;
 }
 
 .titles {
@@ -148,8 +144,13 @@ main {
 }
 
 footer {
-  padding: 5px;
   background-color: #52A596;
+  padding: 5px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 15%;
 }
 
 footer ul {
@@ -210,10 +211,11 @@ footer a:focus {
     display: none;
   }
   main {
-    margin: 6em 1em 2em 1em;
+    margin: 8em 1em 10em 2em;
   }
   .nav-links {
     display: none;
+    text-align: center;
   }
 }
 
