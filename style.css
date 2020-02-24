@@ -48,6 +48,13 @@ nav a:focus {
   border-radius: 100px;
 }
 
+.zek {
+  height: 40px;
+  width: 40px;
+  /* border-radius: 50%; */
+  margin: .75em;
+}
+
 .hash1 {
   color: #015949;
   font-weight: 700;
