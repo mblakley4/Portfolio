@@ -7,6 +7,12 @@ body {
   margin: 0;
 }
 
+main {
+  margin: 6em 8em;
+  color: #002622;
+  max-width: 950px;
+}
+
 nav {
   display: block;
   position: fixed;
@@ -42,26 +48,6 @@ nav a:focus {
   border-radius: 100px;
 }
 
-h1 {
-  font-weight: 600;
-  display: inline-block;
-  padding-left: 1em;
-}
-
-h2 {
-  font-size: 1.3em;
-}
-
-.section-title {
-  text-decoration: underline;
-}
-
-
-
-h5 {
-  color: #015949;
-}
-
 .hash1 {
   color: #015949;
   font-weight: 700;
@@ -74,15 +60,50 @@ h5 {
 
 .hash3 {
   color: #88D8CA;
-  font-weight: 700;
+  font-weight: 70
 }
 
-.aboutText {
-  margin: 25px 0;
-  padding: 20px 0;
-  font-weight: 600;
-  line-height: 1.5;
-  font-style: italic;
+.name-logo {
+  padding-left: 1em;
+}
+
+.intro {
+  height: 100vh;
+}
+
+h1 {
+  font-weight: 400;
+  display: inline-block;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 400;
+}
+
+h5 {
+  color: #015949;
+}
+
+.intro-hi {
+  padding-left: .15em;
+}
+
+.myName {
+  font-size: 3.25em;
+  padding-right: 5%;
+}
+
+.intro-description {
+  font-size: 1.5em;
+}
+
+.section-title {
+  text-decoration: underline;
+}
+
+#projectLink {
+  padding-top: 4em;
 }
 
 .project-container {
@@ -110,12 +131,6 @@ h5 {
 .project-details a:focus {
   cursor: pointer;
   color: #52A596;
-}
-
-main {
-  margin: 6em 8em;
-  color: #002622;
-  max-width: 1200px;
 }
 
 .titles {
@@ -190,8 +205,8 @@ footer a:focus {
 }
 
 .footer-icon {
-  height: 2.5em;
-  width: 2.5em;
+  height: 2.2em;
+  width: 2.2em;
 }
 
 @media (min-width: 700px) {
@@ -211,7 +226,10 @@ footer a:focus {
     display: none;
   }
   main {
-    margin: 8em 1em 10em 2em;
+    margin: 6em 1em 10em 2em;
+  }
+  .intro {
+    padding-bottom: 50px;
   }
   .nav-links {
     display: none;
