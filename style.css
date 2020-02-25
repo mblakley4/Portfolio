@@ -207,14 +207,14 @@ footer a:focus {
 }
 
 .side-icon {
-  height: 3em;
-  width: 3em;
-  margin: 10px;
+  margin: 15px;
+  color: #002622;
+  font-size: 2.5em;
 }
 
 .footer-icon {
-  height: 2.2em;
-  width: 2.2em;
+  color: #002622;
+  font-size: 2.2em;
 }
 
 @media (min-width: 700px) {
