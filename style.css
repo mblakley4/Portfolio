@@ -50,10 +50,9 @@ nav a:focus {
 }
 
 .zek {
-  height: 40px;
-  width: 40px;
-  /* border-radius: 50%; */
-  margin: .75em;
+  height: 2.5em;
+  width: 2.5em;
+  margin: .75em 1.25em;
 }
 
 .hash1 {
@@ -245,7 +244,7 @@ footer a:focus {
   }
 }
 
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   .project-container {
     flex-direction: column;
   }
