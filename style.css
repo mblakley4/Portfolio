@@ -140,29 +140,10 @@ h5 {
   color: #52A596;
 }
 
-.titles {
-  font-style: italic;
-  font-weight: 400;
-  color: #015949;
-}
-
-.experience h4,
-.education h4 {
-  margin-bottom: 4px;
-  color: #52A596;
-}
-
-.date {
-  margin-top: 0;
-  font-size: 14px;
-}
-
-.experience {
-  line-height: 1.3;
-}
-
-.experience li {
-  margin: 10px 0;
+.zekker {
+  display: block;
+  height: 50px;
+  margin: 25px auto;
 }
 
 footer {
@@ -241,6 +222,11 @@ footer a:focus {
   .nav-links {
     display: none;
     text-align: center;
+  }
+  .zekker {
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
