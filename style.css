@@ -219,6 +219,9 @@ footer a:focus {
   .intro {
     padding-bottom: 50px;
   }
+  nav {
+    position: relative;
+  }
   .nav-links {
     display: none;
     text-align: center;
